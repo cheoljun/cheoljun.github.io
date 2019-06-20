@@ -26,6 +26,24 @@ figure {
 	padding: 0.2em;
 }
 
+div.hatnote {
+    padding-left: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+.hatnote {
+    font-style: italic;
+}
+
+.mw-body {
+    margin-left: 10em;
+    border: 1px solid #a7d7f9;
+    border-right-width: 0;
+    margin-top: -1px;
+	background-color: #ffffff;
+	padding: 1.25em 1.5em 1.5em 1.5em;
+}
+
 /**
  * Basic styling
  */
@@ -71,7 +89,12 @@ p {
 	font size: 14px;
 	color: #222222;
 	font-family: sans-serif;
-	margin: 7px, 0px;
+/*	margin: 7px, 0px;*/
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .fn {
@@ -83,6 +106,18 @@ th {
 	font-size: 12px;
 	color: #000000;
 	padding: 1px;
+}
+#p-logo a {
+    display: block;
+    width: 10em;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+}
+.mw-wiki-logo {
+    background-image: url(https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/10408008_643451319076729_6589075682092919265_n.jpg?_nc_cat=109&_nc_oc=AQk7G5w6TfVTROuo01L1KJEfdU9jmm1A0OIjf-3xY0v0gPGAX6vyUyCwXVmOKOxEJd8&_nc_ht=scontent.fsgn3-1.fna&oh=ffdb48e32e9734762f89696199563876&oe=5D89B985);
+    background-size: 135px auto;
 }
 
 /**
@@ -245,6 +280,14 @@ pre > code {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
+}
+
+#mw-panel {
+    font-size: inherit;
+    position: absolute;
+    top: 0;
+    width: 10em;
+    left: 0;
 }
 
 

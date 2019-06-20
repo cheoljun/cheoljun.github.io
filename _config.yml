@@ -17,7 +17,7 @@ title: Cheoljun Wiki
 email: lcjune02@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Cheoljun Wiki is hosted by the LIM foundation, profit organization. Cheoljun Wiki is Started in 2019, it currently contains 0 articles. Many other Wikipedias are available; some of the largest are listed below.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://cheoljun.github.io/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
